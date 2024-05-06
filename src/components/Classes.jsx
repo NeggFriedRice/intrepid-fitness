@@ -37,6 +37,8 @@ export default function Classes() {
                 <div className="w-[300px] mx-4 h-[250px] bg-gray-300"></div>
             </div>
         </div>
+        <div className="h-[150px] w-[200vw] bg-blue-800 absolute rotate-[170deg] z-[-1] top-[1900px]"></div>
+        <div className="h-[150px] w-[200vw] bg-blue-800 absolute rotate-[220deg] z-[-1] top-[2300px]"></div>
     </section>
     )
 }
