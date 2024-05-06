@@ -13,7 +13,6 @@ function App() {
   return (
     <>
       <div id="outer-container">
-        <p>Hello</p>
         <Navbar />
         <Sidebar pageWrapId={ "page-wrap" } outerContainerId={ "outer-container" } />
         <main id="page-wrap">
