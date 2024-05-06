@@ -58,6 +58,37 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.gold-box, .silver-box, .sport-box, .junior-box, .recovery-box {
+  transition: ease-out 0.3s;
+}
+
+.gold-box:hover {
+  box-shadow: inset 0 -500px 0 0 #f59e0b;
+  color:#ffffff;
+}
+
+.silver-box:hover {
+  box-shadow: inset 0 -500px 0 0 #6b7280;
+  color:#ffffff;
+}
+
+.sport-box:hover {
+  box-shadow: inset 0 -500px 0 0 #ef4444;
+  color:#ffffff;
+}
+
+.junior-box:hover {
+  box-shadow: inset 0 -500px 0 0 #047857;
+  color:#ffffff;
+}
+
+.recovery-box:hover {
+  box-shadow: inset 0 -500px 0 0 #6d28d9;
+  color:#ffffff;
+}
+
+
+
 @font-face {
   font-family: 'BuiltTitling';
   src: local('BuiltTitling'),url(./fonts/Built-Titling.otf) format('opentype');
