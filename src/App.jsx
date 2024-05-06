@@ -5,6 +5,7 @@ import Intro from './components/Intro'
 import Navbar from './components/Navbar'
 import Classes from './components/Classes'
 import './index.css'
+import Membership from './components/Membership'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,13 +13,13 @@ function App() {
   return (
     <>
       <div id="outer-container">
-        <p>Hello</p>
         <Navbar />
         <Sidebar pageWrapId={ "page-wrap" } outerContainerId={ "outer-container" } />
         <main id="page-wrap">
           <Header />
           <Intro />
           <Classes />
+          <Membership />
         </main>
       </div>
     </>
