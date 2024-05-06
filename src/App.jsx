@@ -5,6 +5,7 @@ import Intro from './components/Intro'
 import Navbar from './components/Navbar'
 import Classes from './components/Classes'
 import './index.css'
+import Membership from './components/Membership'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +20,7 @@ function App() {
           <Header />
           <Intro />
           <Classes />
+          <Membership />
         </main>
       </div>
     </>
