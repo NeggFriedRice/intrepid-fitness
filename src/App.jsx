@@ -16,10 +16,10 @@ function App() {
         <Navbar />
         <Sidebar pageWrapId={ "page-wrap" } outerContainerId={ "outer-container" } />
         <main id="page-wrap">
-          <Header />
-          <Intro />
-          <Classes />
-          <Membership />
+            <Header />
+            <Intro />
+            <Classes />
+            <Membership />
         </main>
       </div>
     </>

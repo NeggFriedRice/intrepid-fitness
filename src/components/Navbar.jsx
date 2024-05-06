@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Navbar() {
   return (
-    <div className="flex justify-center max-lg:hidden">
+    <div className="flex justify-center max-lg:hidden bg-black">
         <ul className="font-[BuiltTitling] text-[2.5rem] flex gap-[150px]">
             <li>Classes</li>
             <li>Membership</li>

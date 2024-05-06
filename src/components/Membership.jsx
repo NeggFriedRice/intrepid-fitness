@@ -4,7 +4,7 @@ export default function Membership() {
   return (
     <>
         <div className="flex justify-center bg-black py-4">
-            <div>
+            <div className="">
                 <div className="bg-white text-black w-[70vw] rounded-lg text-center my-12 py-4 border-4 border-yellow-500 font-[BuiltTitling]">
                     <h3 className="text-[1.5rem]">Gold Membership</h3>
                     <p className="text-[2rem]">$47 per week</p>
