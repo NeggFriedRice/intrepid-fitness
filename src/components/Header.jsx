@@ -43,7 +43,9 @@ export default function Header() {
                 autoPlay={true}
                 infiniteLoop={true}
                 showThumbs={false}
-                showStatus={false}>
+                showStatus={false}
+                swipeable={false}
+                showArrows={false}>
                     <div>
                         <img src="1cropped.png" className="xl:w-[640px] xl:h-[650px]"/>
                     </div>
