@@ -1,6 +1,8 @@
 import React from 'react'
 import Reveal from '../utils/Reveal'
 import { motion } from 'framer-motion'
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel'
 
 export default function Header() {
   return (
@@ -35,8 +37,23 @@ export default function Header() {
             initial={{ opacity: 0}}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 0.8, ease: 'easeOut' }}
-            className="xl:w-[640px] flex justify-center">
-                <img src="1cropped.png" className="xl:w-[640px]"/>
+            className="xl:w-[640px] w-[894px] max-md:w-[100vw] flex justify-center">
+                {/* <img src="1cropped.png" className="xl:w-[640px]"/> */}
+                <Carousel
+                autoPlay={true}
+                infiniteLoop={true}
+                showThumbs={false}
+                showStatus={false}>
+                    <div>
+                        <img src="1cropped.png" className="xl:w-[640px] xl:h-[650px]"/>
+                    </div>
+                    <div>
+                        <img src="2cropped.jpg" className="xl:w-[640px] xl:h-[650px]"/>
+                    </div>
+                    <div>
+                        <img src="3cropped.jpg" className="xl:w-[640px] xl:h-[650px]"/>
+                    </div>
+                </Carousel>
             </motion.div>
         </div>
     </div>
