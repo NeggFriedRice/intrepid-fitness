@@ -65,29 +65,38 @@ button:focus-visible {
 .gold-box:hover {
   box-shadow: inset 0 -500px 0 0 #f59e0b;
   color:#ffffff;
+  transform: translateY(-30px);
 }
 
 .silver-box:hover {
   box-shadow: inset 0 -500px 0 0 #6b7280;
   color:#ffffff;
+  transform: translateY(-30px);
 }
 
 .sport-box:hover {
   box-shadow: inset 0 -500px 0 0 #ef4444;
   color:#ffffff;
+  transform: translateY(-30px);
 }
 
 .junior-box:hover {
   box-shadow: inset 0 -500px 0 0 #047857;
   color:#ffffff;
+  transform: translateY(-30px);
 }
 
 .recovery-box:hover {
   box-shadow: inset 0 -500px 0 0 #6d28d9;
   color:#ffffff;
+  transform: translateY(-30px);
 }
 
-
+/* .classes {
+  background-image: url("/gymfloor.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
 
 @font-face {
   font-family: 'BuiltTitling';
