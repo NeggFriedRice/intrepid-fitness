@@ -15,7 +15,7 @@ function App() {
       <div id="outer-container">
         <Navbar />
         <Sidebar pageWrapId={ "page-wrap" } outerContainerId={ "outer-container" } />
-        <main id="page-wrap">
+        <main id="page-wrap" className="w-[100vw]">
             <Header />
             <Intro />
             <Classes />

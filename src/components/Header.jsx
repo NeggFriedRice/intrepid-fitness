@@ -15,7 +15,7 @@ export default function Header() {
             transition={{ duration: 1, delay: 0.5, ease: 'easeOut' }}
             className="w-[100vw] lg:w-[894px] h-[50vh] xl:w-[640px] xl:h-[650px] bg-setColour1 flex place-items-center justify-center">
                 <div className="font-[BuiltTitling] relative">
-                    <div className="absolute rotate-[270deg] top-[80px] left-[-145px]">
+                    <div className="absolute rotate-[270deg] top-[80px] left-[-135px]">
                         <p className="text-[3.5rem]">IT'S TIME TO</p>
                     </div>
                     <div className="flex justify-center">
@@ -37,7 +37,7 @@ export default function Header() {
             initial={{ opacity: 0}}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 0.8, ease: 'easeOut' }}
-            className="xl:w-[640px] w-[894px] max-md:w-[100vw] flex justify-center">
+            className="xl:w-[640px] w-[894px] max-lg:w-[100vw] flex justify-center">
                 {/* <img src="1cropped.png" className="xl:w-[640px]"/> */}
                 <Carousel
                 autoPlay={true}
