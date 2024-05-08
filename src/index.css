@@ -103,6 +103,16 @@ button:focus-visible {
   src: local('BuiltTitling'),url(./fonts/Built-Titling.otf) format('opentype');
 }
 
+@font-face {
+  font-family: 'Lato';
+  src: local('Lato'),url(./fonts/Lato-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Staatliches';
+  src: local('Staatliches'),url(./fonts/Staatliches-Regular.ttf) format('truetype');
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
