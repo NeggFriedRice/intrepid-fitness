@@ -20,15 +20,15 @@ export default function Header() {
                     </div>
                     <div className="flex justify-center">
                         <div className="text-left">
-                            <Reveal direction={"left"} delay={0.35}>
+                            <Reveal direction={"left"} delay={1.55}>
                                 <p className="text-[4rem] mb-[-20px]">WORK HARD.</p>
                             </Reveal>
-                            <Reveal direction={"right"} delay={0.65}>
+                            <Reveal direction={"right"} delay={1.85}>
                                 <p className="text-[4.1rem] mb-[-20px]">TRAIN HARD.</p>
                             </Reveal>
                         </div>
                     </div>
-                    <Reveal direction={"left"} delay={0.95}>
+                    <Reveal direction={"left"} delay={2.15}>
                         <p className="text-[4.5rem] mt-[-10px]">SWEAT HARD.</p>
                     </Reveal>
                 </div>
