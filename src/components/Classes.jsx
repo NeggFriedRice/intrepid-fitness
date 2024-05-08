@@ -13,7 +13,7 @@ export default function Classes() {
                     <div className="w-[300px]">
                         <h1 className="font-[BuiltTitling] text-[3rem]"><span className="font-[Staatliches] text-[2.5rem]">01. </span>Boxing</h1>
                         <p className="font-[BuiltTitling] text-[2rem]">Prepare to sweat</p>
-                        <p className="font-[Lato]">A high intensity class with a combination of boxing drills along with body weight and core exercises! All levels welcome!</p>
+                        <p className="font-[Lato] max-lg:text-[1rem]">A high intensity class with a combination of boxing drills along with body weight and core exercises! All levels welcome!</p>
                     </div>
                     <div className="w-[300px] mx-4 h-[250px] bg-gray-300"></div>
                 </div>
@@ -21,7 +21,7 @@ export default function Classes() {
                     <div className="w-[300px]">
                         <h1 className="font-[BuiltTitling] text-[3rem]"><span className="font-[Staatliches] text-[2.5rem]">02. </span>Bootcamp</h1>
                         <p className="font-[BuiltTitling] text-[2rem]">All Rounder</p>
-                        <p className="font-[Lato]">A workout that focuses on all areas of fitness: strength, explosive power, speed, endurance, mental toughness and balance</p>
+                        <p className="font-[Lato] max-lg:text-[1rem]">A workout that focuses on all areas of fitness: strength, explosive power, speed, endurance, mental toughness and balance</p>
                     </div>
                     <div className="w-[300px] mx-4 h-[250px] bg-gray-300"></div>
                 </div>
@@ -29,7 +29,7 @@ export default function Classes() {
                     <div className="w-[300px]">
                         <h1 className="font-[BuiltTitling] text-[3rem]"><span className="font-[Staatliches] text-[2.5rem]">03. </span>Stretch & Core</h1>
                         <p className="font-[BuiltTitling] text-[2rem]">Stabilise and Strengthen</p>
-                        <p className="font-[Lato]">Focus on core strength, stabilise the pelvis and increases your mobility and fexibility. Great for injury prevention or recovery.</p>
+                        <p className="font-[Lato] max-lg:text-[1rem]">Focus on core strength, stabilise the pelvis and increases your mobility and fexibility. Great for injury prevention or recovery.</p>
                     </div>
                     <div className="w-[300px] mx-4 h-[250px] bg-gray-300"></div>
                 </div>
@@ -37,7 +37,7 @@ export default function Classes() {
                     <div className="w-[300px]">
                         <h1 className="font-[BuiltTitling] text-[3rem]"><span className="font-[Staatliches] text-[2.5rem]">04. </span>Yoga</h1>
                         <p className="font-[BuiltTitling] text-[2rem]">Meditate & Relax</p>
-                        <p className="font-[Lato]">A perfect class to ease back into training with focus on correct movement and technique of stretches and exercises to strengthen the core.</p>
+                        <p className="font-[Lato] max-lg:text-[1rem]">A perfect class to ease back into training with focus on correct movement and technique of stretches and exercises to strengthen the core.</p>
                     </div>
                     <div className="w-[300px] mx-4 h-[250px] bg-gray-300"></div>
                 </div>

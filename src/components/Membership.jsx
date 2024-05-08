@@ -15,7 +15,7 @@ export default function Membership() {
                     <div className="flex justify-center py-4">
                         <div className="h-[1px] w-[60%] bg-yellow-300"></div>
                     </div>
-                    <ul className="text-[1.5rem] font-[Lato]">
+                    <ul className="max-lg:text-[1rem] text-[1.5rem] font-[Lato]">
                         <li><span className="text-red-500">+</span> Unlimited group classes</li>
                         <li><span className="text-red-500">+</span> Open gym access</li>
                         <li><span className="text-red-500">+</span> Sauna access</li>
@@ -30,7 +30,7 @@ export default function Membership() {
                     <div className="flex justify-center py-4">
                         <div className="h-[1px] w-[60%] bg-gray-300"></div>
                     </div>
-                    <ul className="text-[1.5rem] font-[Lato]">
+                    <ul className="max-lg:text-[1rem] text-[1.5rem] font-[Lato]">
                         <li><span className="text-red-500">+</span> 2 group classes per week (incl. yoga)</li>
                         <li><span className="text-red-500">+</span> Sauna access</li>
                         <li><span className="text-red-500">+</span> Recovery lounge access</li>
@@ -44,7 +44,7 @@ export default function Membership() {
                     <div className="flex justify-center py-4">
                         <div className="h-[1px] w-[60%] bg-red-300"></div>
                     </div>
-                    <ul className="text-[1.5rem] font-[Lato]">
+                    <ul className="max-lg:text-[1rem] text-[1.5rem] font-[Lato]">
                         <li><span className="text-red-500">+</span> 45 minute sessions</li>
                         <li><span className="text-red-500">+</span> Healthy snacks included</li>
                     </ul>
@@ -55,7 +55,7 @@ export default function Membership() {
                     <div className="flex justify-center py-4">
                         <div className="h-[1px] w-[60%] bg-green-300"></div>
                     </div>
-                    <ul className="text-[1.5rem] font-[Lato]">
+                    <ul className="max-lg:text-[1rem] text-[1.5rem] font-[Lato]">
                         <li><span className="text-red-500">+</span> 12 - 18 year old</li>
                         <li><span className="text-red-500">+</span> Unlimited group classes</li>
                         <li><span className="text-red-500">+</span> Open gym access</li>
@@ -70,7 +70,7 @@ export default function Membership() {
                     <div className="flex justify-center py-4">
                         <div className="h-[1px] w-[60%] bg-violet-400"></div>
                     </div>
-                    <ul className="text-[1.5rem] font-[Lato]">
+                    <ul className="max-lg:text-[1rem] text-[1.5rem] font-[Lato]">
                         <li><span className="text-red-500">+</span> Unlimited Recovery lounge access</li>
                         <li><span className="text-red-500">+</span> Unlimited sauna access</li>
                         <li><span className="text-red-500">+</span> Unlimited compression boots use</li>
