@@ -15,6 +15,7 @@ export default function Navbar() {
                 <img src="/pb-logo-white.png" className="h-[250px]"/>
               </li>
               <li>What we offer</li>
+              <li>Pricing</li>
               <li>The Team</li>
               <li>Talk to Us</li>
           </motion.ul>
