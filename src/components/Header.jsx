@@ -15,21 +15,21 @@ export default function Header() {
             transition={{ duration: 1, delay: 0.5, ease: 'easeOut' }}
             className="w-[100vw] lg:w-[894px] h-[50vh] xl:w-[640px] xl:h-[650px] bg-setColour1 flex place-items-center justify-center">
                 <div className="font-[BuiltTitling] relative">
-                    <div className="absolute rotate-[270deg] top-[80px] left-[-135px]">
-                        <p className="text-[3.5rem]">IT'S TIME TO</p>
+                    <div className="absolute rotate-[270deg] top-[90px] left-[-145px]">
+                        <p className="text-[3.25rem]">IT'S TIME FOR</p>
                     </div>
                     <div className="flex justify-center">
                         <div className="text-left">
                             <Reveal direction={"left"} delay={1.55}>
-                                <p className="text-[4rem] mb-[-20px]">WORK HARD.</p>
+                                <p className="text-[4rem] mb-[-20px]">CARDIO.</p>
                             </Reveal>
                             <Reveal direction={"right"} delay={1.85}>
-                                <p className="text-[4.1rem] mb-[-20px]">TRAIN HARD.</p>
+                                <p className="text-[4rem] mb-[-20px]">CONDITIONING.</p>
                             </Reveal>
                         </div>
                     </div>
                     <Reveal direction={"left"} delay={2.15}>
-                        <p className="text-[4.5rem] mt-[-10px]">SWEAT HARD.</p>
+                        <p className="text-[5rem] mt-[-10px]">BOXING.</p>
                     </Reveal>
                 </div>
             </motion.div>
