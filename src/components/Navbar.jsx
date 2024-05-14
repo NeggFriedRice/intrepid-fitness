@@ -10,7 +10,7 @@ export default function Navbar() {
           initial={{ opacity: 0}}
           animate={{ opacity: 1}}
           transition={{ duration: 1, delay: 1.25, ease: 'easeIn' }}
-          className="font-[BuiltTitling] text-[2.5rem] flex gap-[100px] mt-8 justify-center place-items-end">
+          className="font-[BuiltTitling] lg:text-[2rem] flex md:gap-[30px] md:text-[2rem] lg:gap-[50px] mt-8 justify-center place-items-end">
               <li className="relative">
                 <img src="/pb-logo-white.png" className="h-[250px]"/>
               </li>

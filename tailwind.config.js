@@ -8,6 +8,7 @@ export default {
     extend: {
       colors: {
         setColour1: '#a3263a',
+        setColour2: '#0d1d75',
       }
     },
   },

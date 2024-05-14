@@ -13,24 +13,27 @@ export default function Header() {
             initial={{ opacity: 0}}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 0.5, ease: 'easeOut' }}
-            className="w-[100vw] lg:w-[894px] h-[50vh] xl:w-[640px] xl:h-[650px] bg-setColour1 flex place-items-center justify-center">
+            className="w-[100vw] lg:w-[894px] max-md:h-[55vh] h-[50vh] xl:w-[640px] xl:h-[650px] bg-setColour1 flex place-items-center justify-center">
                 <div className="font-[BuiltTitling] relative">
-                    <div className="absolute rotate-[270deg] top-[90px] left-[-145px]">
-                        <p className="text-[3.25rem]">IT'S TIME FOR</p>
+                    <div className="absolute rotate-[270deg] top-[90px] left-[-145px] max-md:left-[-105px] max-md:top-[66px]">
+                        <p className="max-md:text-[2.5rem] text-[3.25rem]">IT'S TIME FOR</p>
                     </div>
                     <div className="flex justify-center">
                         <div className="text-left">
                             <Reveal direction={"left"} delay={1.55}>
-                                <p className="text-[4rem] mb-[-20px]">CARDIO.</p>
+                                <p className="max-md:text-[2.5rem] text-[4rem] lg:mb-[-20px]">CARDIO.</p>
                             </Reveal>
                             <Reveal direction={"right"} delay={1.85}>
-                                <p className="text-[4rem] mb-[-20px]">CONDITIONING.</p>
+                                <p className="max-md:text-[2.5rem] text-[4rem] lg:mb-[-20px]">CONDITIONING.</p>
+                            </Reveal>
+                            <Reveal direction={"left"} delay={2.15}>
+                                <p className="max-md:text-[3rem] text-[5rem] lg:mt-[-10px]">BOXING.</p>
                             </Reveal>
                         </div>
                     </div>
-                    <Reveal direction={"left"} delay={2.15}>
-                        <p className="text-[5rem] mt-[-10px]">BOXING.</p>
-                    </Reveal>
+                    <div className="flex justify-center">
+                        <img src="/pb-logo-white.png" className="max-xs:h-[110px] h-[150px] lg:hidden "/>
+                    </div>
                 </div>
             </motion.div>
             <motion.div
