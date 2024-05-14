@@ -12,7 +12,7 @@ export default function Team() {
                 <div className="max-md:w-[600px] max-lg:w-[800px] xl:w-[1280px] relative xl:flex xl:flex-wrap justify-center text-[1.5rem]">
                     <div className="flex justify-center flex-wrap lg:bg-setColour2 py-8">
                         <div className="px-12">
-                            <h1 className="font-[BuiltTitling] max-md:text-[2rem] text-[4rem]">Jason Whateley</h1>
+                            <h1 className="font-[BuiltTitling] max-md:text-[2.75rem] text-[4rem]">Jason Whateley</h1>
                             <p className="py-4 max-md:text-[1rem]">Growing up in Lakes Entrance Jason was all about footy. Identified as a likely starter for a boxing match by his football coach, Jason took the plunge into the world of boxing winning a number of championships across the world.</p>
                             <p className="py-4 max-md:text-[1rem]">After a fruitful boxing career Jason set his sights on sharing his knowledge and passion for fitness and boxing to help others achieve their fitness goals.</p>
 
@@ -36,7 +36,7 @@ export default function Team() {
                     <div className="flex justify-center flex-wrap lg:bg-setColour2 py-8 my-8">
                         <div className="px-12 flex flex-wrap space-between">
                             <div className="lg:w-[50%]">
-                                <h1 className="font-[BuiltTitling] max-md:text-[2rem] text-[4rem]">Samantha Holborn</h1>
+                                <h1 className="font-[BuiltTitling] max-md:text-[2.75rem] text-[4rem]">Samantha Holborn</h1>
                                 <p className="py-4 max-md:text-[1rem]">Sam specialises in strength training and diet advice and has a wealth of boxing knowledge. Sam's boxing pad work and boxing IQ make her a brilliant well-rounded trainer that her clients love.</p>
                                 <p className="py-4 max-md:text-[1rem]">Sam is available for personal training and group sessions for friends, work groups and sports teams and is happy to help you meet your diet and fitness needs and smash your goals out of the park!</p>
                             </div>
