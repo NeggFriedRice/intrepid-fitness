@@ -20,8 +20,6 @@ export default function Membership() {
                         <li><span className="text-red-500">+</span> Open gym access</li>
                         <li><span className="text-red-500">+</span> Sauna access</li>
                         <li><span className="text-red-500">+</span> Recovery lounge access</li>
-                        <li><span className="text-red-500">+</span> Coffee & breakfast</li>
-                        <li><span className="text-red-500">+</span> Nutrition app access</li>
                     </ul>
                 </div>
                 <div className="silver-box bg-white text-black w-[70vw]  lg:w-[450px] rounded-lg text-center my-12 lg:my-4 py-4 mx-4 border-4 border-gray-300 font-[BuiltTitling]">
@@ -31,11 +29,9 @@ export default function Membership() {
                         <div className="h-[1px] w-[60%] bg-gray-300"></div>
                     </div>
                     <ul className="max-lg:text-[1rem] text-[1.5rem] font-[Lato]">
-                        <li><span className="text-red-500">+</span> 2 group classes per week (incl. yoga)</li>
+                        <li><span className="text-red-500">+</span> 2 group classes per week</li>
                         <li><span className="text-red-500">+</span> Sauna access</li>
                         <li><span className="text-red-500">+</span> Recovery lounge access</li>
-                        <li><span className="text-red-500">+</span> Coffee & breakfast</li>
-                        <li><span className="text-red-500">+</span> Nutrition app access</li>
                     </ul>
                 </div>
                 <div className="sport-box bg-white text-black w-[70vw]  lg:w-[450px] rounded-lg text-center my-12 lg:my-4 py-4 mx-4 border-4 border-red-600 font-[BuiltTitling]">
@@ -49,21 +45,7 @@ export default function Membership() {
                         <li><span className="text-red-500">+</span> Healthy snacks included</li>
                     </ul>
                 </div>
-                <div className="junior-box bg-white text-black w-[70vw]  lg:w-[450px] rounded-lg text-center my-12 lg:my-4 py-4 mx-4 border-4 border-green-300 font-[BuiltTitling]">
-                    <h3 className="text-[1.5rem] lg:text-[2rem]">Juniors Strength Academy</h3>
-                    <p className="text-[2rem] lg:text-[3rem]">$37 per week</p>
-                    <div className="flex justify-center py-4">
-                        <div className="h-[1px] w-[60%] bg-green-300"></div>
-                    </div>
-                    <ul className="max-lg:text-[1rem] text-[1.5rem] font-[Lato]">
-                        <li><span className="text-red-500">+</span> 12 - 18 year old</li>
-                        <li><span className="text-red-500">+</span> Unlimited group classes</li>
-                        <li><span className="text-red-500">+</span> Open gym access</li>
-                        <li><span className="text-red-500">+</span> Recovery lounge access</li>
-                        <li><span className="text-red-500">+</span> Breakfast</li>
-                        <li><span className="text-red-500">+</span> Nutrition app access</li>
-                    </ul>
-                </div>
+
                 <div className="recovery-box bg-white text-black w-[70vw]  lg:w-[450px] rounded-lg text-center my-12 lg:my-4 py-4 mx-4 border-4 border-violet-400 font-[BuiltTitling]">
                     <h3 className="text-[1.5rem] lg:text-[2rem]">Recovery Lounge Membership</h3>
                     <p className="text-[2rem] lg:text-[3rem]">$37 per week</p>

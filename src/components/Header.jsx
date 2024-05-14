@@ -50,13 +50,13 @@ export default function Header() {
                 swipeable={false}
                 showArrows={false}>
                     <div>
-                        <img src="1cropped.png" className="xl:w-[640px] xl:h-[650px]"/>
+                        <img src="boxing.jpg" className="xl:w-[640px] xl:h-[650px]"/>
                     </div>
                     <div>
-                        <img src="2cropped.jpg" className="xl:w-[640px] xl:h-[650px]"/>
+                        <img src="circuit.jpg" className="xl:w-[640px] xl:h-[650px]"/>
                     </div>
                     <div>
-                        <img src="3cropped.jpg" className="xl:w-[640px] xl:h-[650px]"/>
+                        <img src="group-boxing.jpg" className="xl:w-[640px] xl:h-[650px]"/>
                     </div>
                 </Carousel>
             </motion.div>
