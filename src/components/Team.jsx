@@ -18,7 +18,7 @@ export default function Team() {
 
                             <div className="flex flex-wrap-reverse max-lg:justify-center">
                                 <ul className="list-disc text-[1.5rem] max-md:text-[1rem] px-8">
-                                <h3 className="font-[BuiltTitling] max-md:1.5rem text-[2rem]">Career highlights</h3>
+                                    <h3 className="font-[BuiltTitling] max-md:1.5rem text-[2rem]">Career highlights</h3>
                                     <li>2009 Victorian Heavyweight Champion</li>
                                     <li>2010 Commonwealth Games - Silver Medal</li>
                                     <li>2010 New Caledonia Oceania - Gold Medal</li>
@@ -33,14 +33,15 @@ export default function Team() {
                             </div>
                         </div>
                     </div>
-                    <div className="flex justify-center flex-wrap lg:bg-setColour2 py-8 my-8">
-                        <div className="px-12 flex flex-wrap space-between">
-                            <div className="lg:w-[50%]">
+                    <div className="flex justify-center flex-wrap lg:bg-setColour2 my-8">
+                        <div className="px-12 flex flex-wrap-reverse">
+                            <img src="/jason1.png" className="max-lg:w-[300px] w-[400px] m-auto lg:py-8 lg:mx-24 hover:scale-105 transition-all duration-300"></img>
+                            <div className="lg:w-[45%]">
                                 <h1 className="font-[BuiltTitling] max-md:text-[2.75rem] text-[4rem]">Samantha Holborn</h1>
                                 <p className="py-4 max-md:text-[1rem]">Sam specialises in strength training and diet advice and has a wealth of boxing knowledge. Sam's boxing pad work and boxing IQ make her a brilliant well-rounded trainer that her clients love.</p>
                                 <p className="py-4 max-md:text-[1rem]">Sam is available for personal training and group sessions for friends, work groups and sports teams and is happy to help you meet your diet and fitness needs and smash your goals out of the park!</p>
                             </div>
-                            <img src="/jason1.png" className="max-lg:w-[300px] w-[400px] py-8 lg:mx-24 hover:scale-105 transition-all duration-300"></img>
+
                         </div>
                     </div>
                 </div>
