@@ -33,7 +33,7 @@ export default function Team() {
                             </div>
                         </div>
                     </div>
-                    <div className="flex justify-center flex-wrap lg:bg-setColour2 my-8">
+                    <div className="flex justify-center flex-wrap lg:bg-setColour2 py-8 my-8">
                         <div className="px-12 flex flex-wrap-reverse">
                             <img src="/jason1.png" className="max-lg:w-[300px] w-[400px] m-auto lg:py-8 lg:mx-24 hover:scale-105 transition-all duration-300"></img>
                             <div className="lg:w-[45%]">
