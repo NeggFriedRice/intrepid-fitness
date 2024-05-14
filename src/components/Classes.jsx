@@ -54,9 +54,13 @@ export default function Classes() {
                     </div>
                     <div className="w-[300px] mx-4 h-[250px] bg-gray-300 relative"></div>
                 </div>
-                <div className="flex flex-wrap justify-center my-8">
+                <div className="flex flex-wrap justify-center my-16">
                     <h1 className="font-[BuiltTitling] text-[5rem]">Our Timetable</h1>
-                    <img src="/weekly-roster.png" className="px-4"/>
+                    <img src="/pb-calendar.png" className="px-4"/>
+                    <a href="https://www.instagram.com/pure_boxing/" className="flex place-items-center py-4">
+                        <img src="/instagram.png" className="h-[70px]"/>
+                        <p className="font-[Lato]">Follow us on Instagram to keep up to date with our pop up classes</p>
+                    </a>
                 </div>
             </div>
         </section>
