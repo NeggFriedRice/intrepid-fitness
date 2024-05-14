@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -20,7 +24,6 @@
   justify-content: center;
 }
 
-
 body {
   margin: 0;
   display: flex;
@@ -29,6 +32,16 @@ body {
   min-height: 100vh;
 }
 
+.navbar-itm {
+  transition: ease-out 0.4s;
+  outline: none;
+  padding: 0 5px;
+}
+
+.navbar-itm:hover {
+  box-shadow: inset 0 200px 0 0 blue;
+  cursor: pointer;
+}
 
 button {
   border-radius: 8px;

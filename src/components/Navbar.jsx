@@ -14,10 +14,21 @@ export default function Navbar() {
               <li className="relative">
                 <img src="/pb-logo-white.png" className="h-[250px]"/>
               </li>
-              <li>What we offer</li>
-              <li>Pricing</li>
-              <li>The Team</li>
-              <li>Talk to Us</li>
+              <li>
+                <a href="#whatWeOffer" className="navbar-itm">What we offer</a>
+              </li>
+              <li>
+                <a href="#facilities" className="navbar-itm">Facilities</a>                
+              </li>
+              <li>
+                <a href="#pricing" className="navbar-itm">Pricing</a>
+              </li>
+              <li>
+                <a href="#team" className="navbar-itm">The Team</a>
+              </li>
+              <li>
+                <a href="#contact" className="navbar-itm">Talk to us</a>
+              </li>
           </motion.ul>
         </div>
     </div>

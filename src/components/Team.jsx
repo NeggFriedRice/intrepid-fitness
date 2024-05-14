@@ -4,7 +4,7 @@ import Reveal from '../utils/Reveal'
 export default function Team() {
   return (
     <>
-        <div className="">
+        <div id="team">
             <div className="flex justify-center bg-black pt-16">
                 <h1 className="font-[BuiltTitling] text-[5rem]">The Team</h1>
             </div>
