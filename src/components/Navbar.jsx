@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 
 export default function Navbar() {
   return (
-    <div className="flex justify-center max-lg:hidden bg-black py-4">
+    <div id="navbar" className="flex justify-center max-lg:hidden bg-black py-4">
         <div className="relative">
           
           <motion.ul 
