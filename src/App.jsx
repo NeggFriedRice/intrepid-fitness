@@ -19,7 +19,6 @@ function App() {
         <Sidebar pageWrapId={ "page-wrap" } outerContainerId={ "outer-container" } />
         <main id="page-wrap" className="w-[100vw]">
             <Header />
-            <Intro />
             <Classes />
             <Team />
             <Membership />
