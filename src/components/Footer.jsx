@@ -5,10 +5,10 @@ export default function Footer() {
     const linkStyles = "font-[Lato] text-[1rem] lg:text-[1.5rem] hover:text-setColour1 transition-all duration-300"
 
   return (
-    <footer className="bg-black flex justify-center py-16">
+    <footer id="footer" className="bg-black flex justify-center py-16">
         <div className="lg:w-[80vw] text-center">
                 <div className="flex justify-center">
-                    <a href="#navbar">
+                    <a href="#home">
                         <img src="/pb-logo-white.png" className="h-[150px]"/>
                     </a>
                 </div>
