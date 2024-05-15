@@ -1,6 +1,9 @@
 import React from 'react'
 
 export default function Footer() {
+
+    const linkStyles = "font-[Lato] text-[1rem] lg:text-[1.5rem] hover:text-setColour1 transition-all duration-300"
+
   return (
     <footer className="bg-black flex justify-center py-16">
         <div className="lg:w-[80vw] text-center">
@@ -13,7 +16,7 @@ export default function Footer() {
                     <div>
                         <h1 className="font-[BuiltTitling] text-[1.5rem] lg:text-[2rem] text-setColour1">Call us anytime</h1>
                         <a href="tel:0407853346">
-                            <p className="font-[Lato] text-[1rem] lg:text-[1.5rem] hover:text-setColour1">0407 853 346</p>
+                            <p className={linkStyles}>0407 853 346</p>
                         </a>
                         <h1 className="font-[BuiltTitling] text-[1.5rem] lg:text-[2rem] text-setColour1 pt-8">Come visit us</h1>
                         <p className="font-[Lato] text-[1rem] lg:text-[1.5rem]">2/107-113 Heatherdale Road, Ringwood</p>
@@ -27,16 +30,16 @@ export default function Footer() {
                         <div>
                             <h1 className="font-[BuiltTitling] text-[1.5rem] lg:text-[2rem] text-setColour1">Links</h1>
                             <a href="#whatWeOffer">
-                                <p className="font-[Lato] text-[1rem] lg:text-[1.5rem] hover:text-setColour1">What we offer</p>
+                                <p className={linkStyles}>What we offer</p>
                             </a>
                             <a href="#facilities">
-                                <p className="font-[Lato] text-[1rem] lg:text-[1.5rem] hover:text-setColour1">Facilities</p>
+                                <p className={linkStyles}>Facilities</p>
                             </a>
                             <a href="#pricing">
-                                <p className="font-[Lato] text-[1rem] lg:text-[1.5rem] hover:text-setColour1">Pricing</p>
+                                <p className={linkStyles}>Pricing</p>
                             </a>
                             <a href="#team">
-                                <p className="font-[Lato] text-[1rem] lg:text-[1.5rem] hover:text-setColour1">The Team</p>
+                                <p className={linkStyles}>The Team</p>
                             </a>
                         </div>
                         <div>

@@ -5,7 +5,7 @@ export default function Team() {
   return (
     <>
         <div id="team" className="relative overflow-hidden">
-            <img src="/hero-brush.svg" className="absolute top-[200px] min-w-[2135px] left-[-230px] transform-none"/>
+            <img src="/hero-brush.svg" className="absolute top-[200px] min-w-[1135px] left-[-250px] lg:left-[250px] transform-none"/>
             <div className="flex justify-center bg-black pt-16">
                 <h1 className="font-[BuiltTitling] text-[5rem] relative">The Team</h1>
             </div>
