@@ -58,7 +58,7 @@ export default function Classes() {
                     <h1 className="font-[BuiltTitling] text-[5rem]">Our Timetable</h1>
                     <img src="/pb-calendar.png" className="px-4"/>
                     <a href="https://www.instagram.com/pure_boxing/" className="flex place-items-center py-4 mx-8">
-                        <img src="/instagram.png" className="h-[70px] max-md:h-[45px]"/>
+                        <img src="/instagram.png" className="h-[70px] max-md:h-[45px] hover:rotate-[366deg] hover:scale-105 transition-all duration-300"/>
                         <p className="font-[Lato] max-md:text-[1rem]">Follow us on Instagram to keep up to date with our pop up classes</p>
                     </a>
                 </div>
