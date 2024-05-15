@@ -10,7 +10,7 @@ export default function Header() {
     <>
     <div className="relative overflow-hidden">
         <img src="/white-dotted-texture.png" className="absolute min-w-[3000px] left-[-300px]"/>
-        <div className="flex justify-center w-[100vw] bg-black pt-12">
+        <div className="flex justify-center w-[100vw] bg-black lg:pt-12">
             <div className="relative">
                 <div className="flex xl:w-[1280px] flex-wrap justify-center">
                     <motion.div
