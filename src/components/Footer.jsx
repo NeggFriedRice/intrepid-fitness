@@ -5,15 +5,16 @@ export default function Footer() {
     const linkStyles = "font-[Lato] text-[1rem] lg:text-[1.5rem] hover:text-setColour1 transition-all duration-300"
 
   return (
-    <footer id="footer" className="bg-black flex justify-center py-16">
-        <div className="lg:w-[80vw] text-center">
-                <div className="flex justify-center">
-                    <a href="#home">
-                        <img src="/pb-logo-white.png" className="h-[150px]"/>
-                    </a>
-                </div>
+    <footer id="footer" className="bg-black flex justify-center py-16 relative overflow-hidden">
+        <img src="/grey-dots-texture-cropped.png" className="absolute min-w-[3000px] rotate-180 h-[800px] opacity-25"/> 
+        <div className="lg:w-[80vw] xl:w-[1500px] text-center">
+            <div className="flex justify-center">
+                <a href="#home">
+                    <img src="/pb-logo-white.png" className="h-[150px]"/>
+                </a>
+            </div>
                 <div className="bg-black grid grid-cols-2 py-4">
-                    <div>
+                    <div className="relative">
                         <h1 className="font-[BuiltTitling] text-[1.5rem] lg:text-[2rem] text-setColour1">Call us anytime</h1>
                         <a href="tel:0407853346">
                             <p className={linkStyles}>0407 853 346</p>
@@ -55,10 +56,14 @@ export default function Footer() {
                         </div>
                     </div>
                 </div>
-                <a href="https://www.google.com/maps/place/Pure+Boxing/@-37.8285624,145.2141795,15z/data=!4m2!3m1!1s0x0:0xff47d4a8bee177a7?sa=X&ved=1t:2428&ictx=111" target="_blank">
-                    <img src="pb-maps.png" className="w-[500px] lg:hidden"/>
-                </a>
+                <div className="flex justify-center">
+                    <a href="https://www.google.com/maps/place/Pure+Boxing/@-37.8285624,145.2141795,15z/data=!4m2!3m1!1s0x0:0xff47d4a8bee177a7?sa=X&ved=1t:2428&ictx=111" target="_blank">
+                        <img src="pb-maps.png" className="w-[500px] lg:hidden"/>
+                    </a>
+                </div>
         </div>
+
     </footer>
+    
   )
 }
