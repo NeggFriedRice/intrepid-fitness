@@ -58,7 +58,7 @@ export default function Footer() {
                 </div>
                 <div className="flex justify-center">
                     <a href="https://www.google.com/maps/place/Pure+Boxing/@-37.8285624,145.2141795,15z/data=!4m2!3m1!1s0x0:0xff47d4a8bee177a7?sa=X&ved=1t:2428&ictx=111" target="_blank">
-                        <img src="pb-maps.png" className="w-[500px] lg:hidden"/>
+                        <img src="pb-maps.png" className="w-[500px] lg:hidden relative"/>
                     </a>
                 </div>
         </div>
