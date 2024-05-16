@@ -44,8 +44,8 @@ export default function Footer() {
                             </a>
                         </div>
                         <div>
-                            <h1 className="font-[BuiltTitling] text-[1.5rem] lg:text-[2rem] text-setColour1 pt-8">Socials</h1>
-                            <div className="flex justify-center">
+                            <h1 className="font-[BuiltTitling] text-[1.5rem] lg:text-[2rem] text-setColour1 pt-8 relative">Socials</h1>
+                            <div className="flex justify-center relative">
                                 <a href="https://www.instagram.com/pure_boxing/">
                                     <img src="/instagram.png" alt="Instagram logo" className="w-[50px] lg:w-[75px]"/>
                                 </a>
