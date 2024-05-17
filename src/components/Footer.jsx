@@ -28,7 +28,7 @@ export default function Footer() {
                         </div>
                     </div>
                     <div>
-                        <div>
+                        <div className="relative">
                             <h1 className="font-[BuiltTitling] text-[1.5rem] lg:text-[2rem] text-setColour1">Links</h1>
                             <a href="#whatWeOffer">
                                 <p className={linkStyles}>What we offer</p>
