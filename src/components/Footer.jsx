@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="lg:w-[80vw] xl:w-[1500px] text-center">
             <div className="flex justify-center">
                 <a href="#home">
-                    <img src="/pb-logo-white.png" className="h-[150px]"/>
+                    <img src="/pb-logo-white.png" className="h-[150px] relative"/>
                 </a>
             </div>
                 <div className="bg-black grid grid-cols-2 py-4">
@@ -47,10 +47,10 @@ export default function Footer() {
                             <h1 className="font-[BuiltTitling] text-[1.5rem] lg:text-[2rem] text-setColour1 pt-8 relative">Socials</h1>
                             <div className="flex justify-center relative">
                                 <a href="https://www.instagram.com/pure_boxing/">
-                                    <img src="/instagram.png" alt="Instagram logo" className="w-[50px] lg:w-[75px]"/>
+                                    <img src="/instagram.png" alt="Instagram logo" className="w-[50px] lg:w-[75px] hover:scale-110 transition-all duration-300"/>
                                 </a>
                                 <a href="https://www.facebook.com/PureBoxingAu/">
-                                    <img src="/facebook-icon.png" alt="Facebook logo" className="w-[50px] lg:w-[75px]"/>
+                                    <img src="/facebook-icon.png" alt="Facebook logo" className="w-[50px] lg:w-[75px] hover:scale-110 transition-all duration-300"/>
                                 </a>
                             </div>
                         </div>
