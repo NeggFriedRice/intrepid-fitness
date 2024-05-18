@@ -1,5 +1,3 @@
-import React from 'react'
-
 export default function Footer() {
 
     const linkStyles = "font-[Lato] text-[1rem] lg:text-[1.5rem] hover:text-setColour1 transition-all duration-300"
@@ -8,9 +6,9 @@ export default function Footer() {
     <footer id="footer" className="bg-black flex justify-center py-16 relative overflow-hidden">
         <img src="/grey-dots-texture-cropped.png" className="absolute min-w-[3000px] rotate-180 h-[800px] opacity-25"/> 
         <div className="lg:w-[80vw] xl:w-[1500px] text-center">
-            <div className="flex justify-center">
+            <div className="flex justify-center relative">
                 <a href="#home">
-                    <img src="/pb-logo-white.png" className="h-[150px] relative"/>
+                    <img src="/pb-logo-white.png" className="h-[150px] cursor-pointer"/>
                 </a>
             </div>
                 <div className="bg-black grid grid-cols-2 py-4">
@@ -21,10 +19,15 @@ export default function Footer() {
                         </a>
                         <h1 className="font-[BuiltTitling] text-[1.5rem] lg:text-[2rem] text-setColour1 pt-8">Come visit us</h1>
                         <p className="font-[Lato] text-[1rem] lg:text-[1.5rem]">2/107-113 Heatherdale Road, Ringwood</p>
-                        <div className="flex justify-center">
-                            <a href="https://www.google.com/maps/place/Pure+Boxing/@-37.8285624,145.2141795,15z/data=!4m6!3m5!1s0x6ad639ae6e9295c7:0xff47d4a8bee177a7!8m2!3d-37.8285624!4d145.2141795!16s%2Fg%2F11h3qp_vtw?entry=ttu" target="_blank">
-                                <img src="pb-maps.png" className="max-lg:hidden lg:w-[500px]"/>
-                            </a>
+                        <div className="flex justify-center max-lg:hidden relative">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12605.422029710226!2d145.2141795!3d-37.8285624!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad639ae6e9295c7%3A0xff47d4a8bee177a7!2sPure%20Boxing!5e0!3m2!1sen!2sau!4v1716029235891!5m2!1sen!2sau" 
+                        width="500"
+                        height="350"
+                        style={{ border: 0 }}
+                        allowFullScreen
+                        loading="lazy"
+                        referrerPolicy="no-referrer-when-downgrade"
+                        />
                         </div>
                     </div>
                     <div>
@@ -56,10 +59,15 @@ export default function Footer() {
                         </div>
                     </div>
                 </div>
-                <div className="flex justify-center">
-                    <a href="https://www.google.com/maps/place/Pure+Boxing/@-37.8285624,145.2141795,15z/data=!4m2!3m1!1s0x0:0xff47d4a8bee177a7?sa=X&ved=1t:2428&ictx=111" target="_blank">
-                        <img src="pb-maps.png" className="w-[500px] lg:hidden relative"/>
-                    </a>
+                <div className="flex justify-center relative lg:hidden">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12605.422029710226!2d145.2141795!3d-37.8285624!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad639ae6e9295c7%3A0xff47d4a8bee177a7!2sPure%20Boxing!5e0!3m2!1sen!2sau!4v1716029235891!5m2!1sen!2sau"
+                width="400"
+                height="350"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                className="mx-4"/>
                 </div>
         </div>
 
