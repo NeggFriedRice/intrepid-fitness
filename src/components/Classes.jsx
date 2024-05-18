@@ -23,7 +23,9 @@ export default function Classes() {
                         <p className="font-[Lato] max-lg:text-[1rem] my-2">Available in 30 and 45 minute sessions based in Ringwood</p>
                         </div>
                     </div>
-                    <div className="w-[300px] mx-4 h-[250px] bg-gray-300 relative"></div>
+                    <div className="w-[300px] mx-4 h-[300px] bg-gray-300 relative mb-4">
+                        <video autoPlay loop muted src="/videos/boxing-1-on-1.mp4" className="h-[300px] w-[300px]"/>
+                    </div>
                 </div>
                 <div className="flex flex-wrap justify-center place-items-center my-8">
                     <div className="max-lg:w-[80vw] lg:w-[600px] relative">
@@ -37,7 +39,9 @@ export default function Classes() {
                             <p className="font-[Lato] max-lg:text-[1rem] my-2">Pure Boxing group sessions are a great way to get fit while learning the art of boxing</p>
                         </div>
                     </div>
-                    <div className="w-[300px] mx-4 h-[250px] bg-gray-300 relative"></div>
+                    <div className="w-[300px] mx-4 h-[250px] bg-gray-300 relative mb-16">
+                        <video autoPlay loop muted src="/videos/group-class.mp4" className="h-[300px] w-[300px]"/>
+                    </div>
                 </div>
 
                 <div className="flex flex-wrap justify-center place-items-center my-8">
@@ -52,7 +56,9 @@ export default function Classes() {
                             <p className="font-[Lato] max-lg:text-[1rem] my-2">Hit the weights, put on the gloves, jump on some cardio, it's all up to you!</p>
                         </div>
                     </div>
-                    <div className="w-[300px] mx-4 h-[250px] bg-gray-300 relative"></div>
+                    <div className="w-[300px] mx-4 h-[250px] bg-gray-300 relative">
+                        <video autoPlay loop muted src="/videos/weightlifting.mp4" className="h-[300px] w-[300px]"/>
+                    </div>
                 </div>
                 <div className="flex flex-wrap justify-center my-16">
                     <h1 className="font-[BuiltTitling] text-[5rem]">Our Timetable</h1>
