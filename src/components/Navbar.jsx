@@ -1,7 +1,15 @@
-import React from 'react'
 import { motion } from 'framer-motion'
+import { useRef } from 'react';
+import { ControlledMenu, MenuItem, useHover, useMenuState } from '@szhsin/react-menu';
+import '@szhsin/react-menu/dist/index.css';
+import '@szhsin/react-menu/dist/transitions/slide.css';
 
 export default function Navbar() {
+
+  const ref = useRef(null);
+  const [menuState, toggle] = useMenuState({ transition: true });
+  const { anchorProps, hoverProps } = useHover(menuState.state, toggle);
+
   return (
     <div id="home" className="flex justify-center max-lg:hidden bg-black py-4">
         <div className="relative">
@@ -29,6 +37,23 @@ export default function Navbar() {
               <li>
                 <a href="#contact" className="navbar-itm">Talk to us</a>
               </li>
+              <>
+                <div ref={ref} {...anchorProps}>
+                  About Us
+                </div>
+
+                <ControlledMenu
+                  {...hoverProps}
+                  {...menuState}
+                  anchorRef={ref}
+                  onClose={() => toggle(false)}
+                  id="menu-dropdown"
+                >
+                  <MenuItem className="menuItem">Facilities</MenuItem>
+                  <MenuItem className="menuItem">The Team</MenuItem>
+                </ControlledMenu>
+              </>
+              
           </motion.ul>
         </div>
     </div>
