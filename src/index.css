@@ -104,22 +104,23 @@ button:focus-visible {
 } */
 
 #menu-dropdown {
-  background-color: black;
+  background-color: rgb(38, 38, 38);
   color: white;
 
 }
 
-.menuItem:hover {
-  background-color:#0d1d75;
+.menuItem-hover {
+  background-color: blue;
   transition-property: all;
-  transition-duration: 500ms;
-  transition-delay: 150ms;
+  transition-duration: 300ms;
+  transition-delay: 100ms;
 }
 
-/* .szh-menu__item--hover {
-  background-color: black;
-  color: white;
-} */
+#navbar {
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
 
 @font-face {
   font-family: 'BuiltTitling';
