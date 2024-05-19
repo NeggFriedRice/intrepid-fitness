@@ -14,7 +14,7 @@ export default function Navbar() {
     hover ? 'menuItem-hover' : 'menuItem';
 
   return (
-    <div id="navbar" className="flex justify-center max-lg:hidden bg-black bg-opacity-75">
+    <div id="navbar" className="flex justify-center max-lg:hidden bg-black bg-opacity-65">
         <div className="relative">
           <motion.ul 
           initial={{ opacity: 0}}
