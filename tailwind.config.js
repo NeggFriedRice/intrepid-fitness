@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        setColour1: '#a3263a',
+        setColour1: '#DF1318',
         setColour2: '#0d1d75',
       }
     },

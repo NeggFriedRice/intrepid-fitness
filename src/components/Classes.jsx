@@ -13,7 +13,7 @@ export default function Classes() {
 
                 <div className="flex flex-wrap justify-center place-items-center my-8 ">
                     <div className="max-lg:w-[80vw] lg:w-[600px] relative">
-                        <div className="h-[200px] max-lg:w-[90vw] w-[670px] bg-red-700 absolute top-[40px] left-[-50px]"></div>
+                        <div className="h-[200px] max-lg:w-[90vw] w-[670px] bg-setColour1 absolute top-[40px] left-[-50px]"></div>
                         <Reveal direction={"left"} delay={0.25}>
                             <h1 className="font-[BuiltTitling] text-[3rem]"><span className="font-[Staatliches] text-[2.5rem]">01. </span>One on One</h1>
                         </Reveal>
@@ -29,7 +29,7 @@ export default function Classes() {
                 </div>
                 <div className="flex flex-wrap justify-center place-items-center my-8">
                     <div className="max-lg:w-[80vw] lg:w-[600px] relative">
-                    <div className="h-[200px] max-lg:w-[90vw] w-[670px] bg-red-700 absolute top-[40px] left-[-50px]"></div>
+                    <div className="h-[200px] max-lg:w-[90vw] w-[670px] bg-setColour1 absolute top-[40px] left-[-50px]"></div>
                         <Reveal direction={"right"} delay={0.25}>
                             <h1 className="font-[BuiltTitling] text-[3rem]"><span className="font-[Staatliches] text-[2.5rem]">02. </span>Group Training</h1>
                         </Reveal>
@@ -46,7 +46,7 @@ export default function Classes() {
 
                 <div className="flex flex-wrap justify-center place-items-center my-8">
                     <div className="max-lg:w-[80vw] lg:w-[600px] relative">
-                    <div className="h-[200px] max-lg:w-[90vw] w-[670px] bg-red-700 absolute top-[40px] left-[-50px]"></div>
+                    <div className="h-[200px] max-lg:w-[90vw] w-[670px] bg-setColour1 absolute top-[40px] left-[-50px]"></div>
                         <Reveal direction={"left"} delay={0.25}>
                             <h1 className="font-[BuiltTitling] text-[3rem]"><span className="font-[Staatliches] text-[2.5rem]">03. </span>Casual boxing</h1>
                         </Reveal>
