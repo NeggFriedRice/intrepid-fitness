@@ -8,7 +8,7 @@ export default function Sidebar({ pageWrapId, outerContainerId}) {
       <Menu right pageWrapId={ pageWrapId } outerContainerId={ outerContainerId }>
           <a href="#home" className="menu-item">Home</a>
           <a href="#whatWeOffer" className="menu-item">What we offer</a>
-          <a href="/" className="menu-item">Facilities</a>
+          <a href="#facilities" className="menu-item">Our Facilities</a>
           <a href="/#pricing" className="menu-item">Pricing</a>
           <a href="#team" className="menu-item">The Team</a>
           <a href="#footer" className="menu-item">Talk to us</a>

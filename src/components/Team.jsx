@@ -20,17 +20,19 @@ export default function Team() {
                                 <p className="py-4 max-md:text-[1rem]">After a fruitful boxing career Jason set his sights on sharing his knowledge and passion for fitness and boxing to help others achieve their fitness goals.</p>
                                 </div>
                                 <div className="flex flex-wrap-reverse max-lg:justify-center">
-                                    <ul className="list-disc text-[1.5rem] max-md:text-[1rem] px-8 relative">
+                                    <ul className="text-[1.5rem] max-md:text-[1rem] relative">
                                         <h3 className="font-[BuiltTitling] max-md:1.5rem text-[2rem]">Career highlights</h3>
-                                        <li>2009 Victorian Heavyweight Champion</li>
-                                        <li>2010 Commonwealth Games - Silver Medal</li>
-                                        <li>2010 New Caledonia Oceania - Gold Medal</li>
-                                        <li>2011 Arafura Games - Gold Medal</li>
-                                        <li>2011 State of Origin Champion</li>
-                                        <li>2014 Australian Championships - Silver Medal</li>
-                                        <li>2015 Australian Championships - Gold Medal</li>
-                                        <li>2016 Rio Olympics Team</li>
-                                        <li>2018 Commonwealth Games - Heavyweight - Silver Medal</li>
+                                        <li className="px-8">
+                                            <li className="list-disc">2009 Victorian Heavyweight Champion</li> 
+                                            <li className="list-disc">2010 Commonwealth Games - Silver Medal</li>
+                                            <li className="list-disc">2010 New Caledonia Oceania - Gold Medal</li>
+                                            <li className="list-disc">2011 Arafura Games - Gold Medal</li>
+                                            <li className="list-disc">2011 State of Origin Champion</li>
+                                            <li className="list-disc">2014 Australian Championships - Silver Medal</li>
+                                            <li className="list-disc">2015 Australian Championships - Gold Medal</li>
+                                            <li className="list-disc">2016 Rio Olympics Team</li>
+                                            <li className="list-disc">2018 Commonwealth Games - Heavyweight - Silver Medal</li>
+                                        </li>
                                     </ul>
                                     <img src="/jason1.png" className="max-lg:w-[300px] w-[400px] my-8 hover:scale-105 transition-all duration-300 relative"></img>
                                 </div>

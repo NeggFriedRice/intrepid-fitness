@@ -40,9 +40,11 @@ export default function Navbar() {
                   anchorRef={ref}
                   onClose={() => toggle(false)}
                   id="menu-dropdown">
-                  <MenuItem className={menuItemClassName}>Facilities</MenuItem>
                   <MenuItem className={menuItemClassName}>
                     <a href="#team">The Team</a>
+                  </MenuItem>
+                  <MenuItem className={menuItemClassName}>
+                    <a href="#facilities">Our Facilities</a>
                   </MenuItem>
                 </ControlledMenu>
               </li>

@@ -91,6 +91,7 @@ button:focus-visible {
 /* Pricing.jsx start */
 .gold-box, .silver-box, .sport-box, .junior-box, .recovery-box {
   transition: ease-out 0.3s;
+  cursor: pointer;
 }
 
 .gold-box:hover {

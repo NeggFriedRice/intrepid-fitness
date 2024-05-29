@@ -3,7 +3,7 @@ export default function Footer() {
     const linkStyles = "font-[Lato] text-[1rem] lg:text-[1.5rem] hover:text-setColour1 transition-all duration-300"
 
   return (
-    <footer id="footer" className="bg-black flex justify-center py-16 relative overflow-hidden">
+    <footer id="footer" className="bg-black flex justify-center pt-16 relative overflow-hidden">
         <img src="/grey-dots-texture-cropped.png" className="absolute min-w-[3000px] rotate-180 h-[800px] opacity-25"/> 
         <div className="lg:w-[80vw] xl:w-[1500px] text-center">
             <div className="flex justify-center relative">
@@ -11,7 +11,7 @@ export default function Footer() {
                     <img src="/pb-logo-white.png" className="h-[150px] cursor-pointer"/>
                 </a>
             </div>
-                <div className="bg-black grid grid-cols-2 py-4">
+                <div className="bg-black grid grid-cols-2 pt-4">
                     <div className="relative">
                         <h1 className="font-[BuiltTitling] text-[1.5rem] lg:text-[2rem] text-setColour1">Call us anytime</h1>
                         <a href="tel:0407853346">
@@ -68,6 +68,9 @@ export default function Footer() {
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
                 className="mx-4"/>
+                </div>
+                <div className="pt-12 pb-2">
+                    <p>Copyright © 2024 Pure Boxing. All Rights Reserved.</p>
                 </div>
         </div>
 

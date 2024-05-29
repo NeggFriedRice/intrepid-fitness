@@ -4,7 +4,7 @@ import Reveal from '../utils/Reveal'
 export default function Facilities() {
   return (
     <>
-    <div id="whatWeOffer" className="classes bg-[url('https://i.shgcdn.com/6dcb9e8a-6a31-47a3-9a4a-036266aa81e5/-/format/auto/-/preview/3000x3000/-/quality/lighter/')] bg-cover text-white ">
+    <div id="facilities" className="classes bg-[url('https://i.shgcdn.com/6dcb9e8a-6a31-47a3-9a4a-036266aa81e5/-/format/auto/-/preview/3000x3000/-/quality/lighter/')] bg-cover text-white ">
         <div className="flex justify-center bg-black bg-opacity-70 pt-24">
             <h1 className="font-[BuiltTitling] text-[5rem] max-md:text-[4rem] relative pt-24 pb-16">Our Facilities</h1>
         </div>
