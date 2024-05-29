@@ -18,7 +18,7 @@ export default function Footer() {
                             <p className={linkStyles}>0407 853 346</p>
                         </a>
                         <h1 className="font-[BuiltTitling] text-[1.5rem] lg:text-[2rem] text-setColour1 pt-8">Come visit us</h1>
-                        <p className="font-[Lato] text-[1rem] lg:text-[1.5rem]">2/107-113 Heatherdale Road, Ringwood</p>
+                        <p className="font-[Lato] text-[1rem] lg:text-[1.5rem]">2/107-113 Heatherdale Rd, Ringwood</p>
                         <div className="flex justify-center max-lg:hidden relative">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12605.422029710226!2d145.2141795!3d-37.8285624!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad639ae6e9295c7%3A0xff47d4a8bee177a7!2sPure%20Boxing!5e0!3m2!1sen!2sau!4v1716029235891!5m2!1sen!2sau" 
                         width="500"

@@ -63,6 +63,32 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+/* .classes {
+  background-image: url("/gymfloor.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+#menu-dropdown {
+  background-color: rgb(38, 38, 38);
+  color: white;
+
+}
+
+.menuItem-hover {
+  background-color: blue;
+  transition-property: all;
+  transition-duration: 300ms;
+  transition-delay: 100ms;
+}
+
+#navbar {
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
+/* Pricing.jsx start */
 .gold-box, .silver-box, .sport-box, .junior-box, .recovery-box {
   transition: ease-out 0.3s;
 }
@@ -96,31 +122,7 @@ button:focus-visible {
   color:#ffffff;
   transform: translateY(-30px);
 }
-
-/* .classes {
-  background-image: url("/gymfloor.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
-
-#menu-dropdown {
-  background-color: rgb(38, 38, 38);
-  color: white;
-
-}
-
-.menuItem-hover {
-  background-color: blue;
-  transition-property: all;
-  transition-duration: 300ms;
-  transition-delay: 100ms;
-}
-
-#navbar {
-  position: sticky;
-  top: 0;
-  z-index: 99;
-}
+/* Pricing.jsx end */
 
 @font-face {
   font-family: 'BuiltTitling';

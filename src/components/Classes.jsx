@@ -5,7 +5,7 @@ export default function Classes() {
   return (
     <>
     <div id="whatWeOffer" className="classes bg-[url('/circuit-class-bg.png')] bg-cover">
-        <div className="flex justify-center bg-black bg-opacity-70 pt-16">
+        <div className="flex justify-center bg-black bg-opacity-70 pt-24">
             <h1 className="font-[BuiltTitling] text-[5rem] max-md:text-[4rem] relative">What we offer</h1>
         </div>
         <section className="flex justify-center bg-black bg-opacity-70 pb-16">
