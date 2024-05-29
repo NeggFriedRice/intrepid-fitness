@@ -28,9 +28,9 @@ export default function Membership() {
                     <div className="h-[1px] w-[60%] bg-red-300"></div>
                 </div>
                 <ul className="max-lg:text-[1.25rem] text-[1.5rem] font-[Lato]">
-                    <li><span className="text-red-500">+</span> Group training classes</li>
-                    <li><span className="text-red-500">+</span> Casual boxing</li>
-                    <li><span className="text-red-500">+</span> Open gym access</li>
+                    <li><span className="text-red-700 ">+</span> Group training classes</li>
+                    <li><span className="text-red-700">+</span> Casual boxing</li>
+                    <li><span className="text-red-700">+</span> Open gym access</li>
                 </ul>
             </div>
             <div className="recovery-box bg-white text-black w-[65vw]  lg:w-[400px] rounded-lg text-center my-4 lg:my-4 py-4 mx-4 border-4 lg:border-8 border-violet-400 font-[BuiltTitling]">

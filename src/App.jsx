@@ -8,6 +8,7 @@ import './index.css'
 import Membership from './components/Membership'
 import Team from './components/Team'
 import Footer from './components/Footer'
+import Facilities from './components/Facilities'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,6 +22,7 @@ function App() {
             <Header />
             <Classes />
             <Team />
+            <Facilities />
             <Membership />
             <Footer />
         </main>
