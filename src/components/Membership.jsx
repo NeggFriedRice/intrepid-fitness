@@ -51,10 +51,13 @@ export default function Membership() {
                 <h1 className="text-[5rem] text-white pt-16 pb-4 lg:pb-8">Talk to Us</h1>
                 <div className="text-[2rem] lg:text-[3.5rem] relative">
                     <p className="">Give us a ring on</p>
-                    <p className="text-[5rem] hover:text-[5.5rem] hover:text-setColour1 transition-all duration-300 delay-50">
-                        <a href="tel:0407853346">0407 853 346</a>
+                    <div className="h-[5.5rem] w-[80vw]">
+                        <p className="max-lg:text-[3.5rem] lg:text-[5rem] hover:lg:text-[5.5rem] relative hover:text-setColour1 transition-all duration-300 delay-50">
+                            <a href="tel:0407853346" className="absolute ml-auto mr-auto left-0 right-0 lg:top-[-1rem]">0407 853 346</a>
                         </p>
-                    <p>to get started today!</p>
+                    </div>
+                        <p>to get started today!</p>
+
                 </div>
             </div>
         </div>
