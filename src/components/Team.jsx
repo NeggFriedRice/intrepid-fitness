@@ -4,7 +4,7 @@ import Reveal from '../utils/Reveal'
 export default function Team() {
   return (
     <>
-        <div id="team" className="relative overflow-hidden">
+        <div id="team" className="relative overflow-hidden text-white">
             <img src="/hero-brush.svg" className="absolute top-[200px] min-w-[1135px] left-[-250px] lg:left-[250px] transform-none"/>
             <div className="flex justify-center bg-black pt-24">
                 <h1 className="font-[BuiltTitling] text-[5rem] relative">The Team</h1>

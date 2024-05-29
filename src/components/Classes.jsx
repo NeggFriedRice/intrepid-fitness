@@ -4,7 +4,7 @@ import Reveal from '../utils/Reveal'
 export default function Classes() {
   return (
     <>
-    <div id="whatWeOffer" className="classes bg-[url('/circuit-class-bg.png')] bg-cover">
+    <div id="whatWeOffer" className="classes bg-[url('/circuit-class-bg.png')] bg-cover text-white ">
         <div className="flex justify-center bg-black bg-opacity-70 pt-24">
             <h1 className="font-[BuiltTitling] text-[5rem] max-md:text-[4rem] relative">What we offer</h1>
         </div>
