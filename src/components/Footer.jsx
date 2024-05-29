@@ -36,14 +36,17 @@ export default function Footer() {
                             <a href="#whatWeOffer">
                                 <p className={linkStyles}>What we offer</p>
                             </a>
+                            <a href="#team">
+                                <p className={linkStyles}>The Team</p>
+                            </a>
                             <a href="#facilities">
                                 <p className={linkStyles}>Facilities</p>
                             </a>
                             <a href="#pricing">
                                 <p className={linkStyles}>Pricing</p>
                             </a>
-                            <a href="#team">
-                                <p className={linkStyles}>The Team</p>
+                            <a href="#contact">
+                                <p className={linkStyles}>Talk to us</p>
                             </a>
                         </div>
                         <div>
