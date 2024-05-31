@@ -20,7 +20,7 @@ export default function Membership() {
                     <li><span className="text-red-500">+</span> Open gym access</li>
                 </ul>
             </div>
-            <div className="sport-box bg-white text-black w-[65vw] lg:w-[400px] rounded-lg text-center my-4 lg:my-4 py-4 mx-4 border-4 lg:border-8 border-red-600 font-[BuiltTitling]">
+            <div className="red-box bg-white text-black w-[65vw] lg:w-[400px] rounded-lg text-center my-4 lg:my-4 py-4 mx-4 border-4 lg:border-8 border-red-600 font-[BuiltTitling]">
                 <h3 className="text-[2rem] lg:text-[2rem]">10 Session Package</h3>
                 <p className="text-[4rem] lg:text-[5rem]">$180</p>
                 <p className="text-[2rem] lg:text-[2rem]">Valid for 6 months</p>
@@ -33,7 +33,7 @@ export default function Membership() {
                     <li><span className="text-red-700">+</span> Open gym access</li>
                 </ul>
             </div>
-            <div className="recovery-box bg-white text-black w-[65vw]  lg:w-[400px] rounded-lg text-center my-4 lg:my-4 py-4 mx-4 border-4 lg:border-8 border-violet-400 font-[BuiltTitling]">
+            <div className="purple-box bg-white text-black w-[65vw]  lg:w-[400px] rounded-lg text-center my-4 lg:my-4 py-4 mx-4 border-4 lg:border-8 border-violet-400 font-[BuiltTitling]">
                 <h3 className="text-[2rem] lg:text-[2rem]">Personal Training</h3>
                 <p className="text-[4rem] lg:text-[5rem]">$XX</p>
                 <p className="text-[2rem] lg:text-[2rem]">Per session</p>
